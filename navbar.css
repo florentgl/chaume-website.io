@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 2.4em;
+    margin-bottom: 1em;
+    margin: 0.6em 3.6em ;
+}
+
+.homebtn {
+    flex-grow: 2;
+    font-size: 1.625em;
+    font-weight: 600;
+}
+
+.homebtn > a {
+    color: black;
+}
+
+.navlinks {
+    flex-grow: 1;
+    font-size: 0.9em;
+}
+
+.navlinks > a {
+    padding: 1em;
+}
+
+.navcontact {
+    flex-grow: 0;
+}

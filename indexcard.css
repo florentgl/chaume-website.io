@@ -1,0 +1,46 @@
+.indexcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6em;
+    row-gap: 2em;
+    margin-bottom: 4em;
+}
+
+.indexcard {
+    flex-grow: 1;
+}
+
+.card1 {
+    display: flex;
+    column-gap: 6em;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.card1 > img {
+    flex-grow: 1;
+    width: 50%;
+    height: auto;
+}
+
+.card1 > .cardtext {
+    flex-grow: 1;
+    width: 45%;
+}
+
+.card2 {
+    display: flex;
+    column-gap: 6em;
+    align-items: center;
+}
+
+.card2 > img {
+    flex-grow: 1;
+    width: 50%;
+    height: auto;
+}
+
+.card2 > .cardtext {
+    flex-grow: 1;
+    width: 45%;
+}

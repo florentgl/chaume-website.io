@@ -1,0 +1,29 @@
+.adresse {
+    margin: 6em 6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coordonnees {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.liensfooter {
+    margin-top: 6em;
+    display: flex;
+    justify-content: center;
+}
+
+.liensfooter > a {
+    padding-left: 2em;
+    padding-right: 2em
+}
+
+.droits {
+    margin-top: 2.5em;
+    text-align: center;
+}
