@@ -9,7 +9,6 @@ body {
     font-size: 16px;
 }
 
-/* @media only screen and (min-width: 600px) { */
     .container {
         margin: 0.6em 3.6em ;
     }
@@ -24,14 +23,3 @@ body {
         text-decoration: none;
         color: #18A0FB;
     }
-
-    .navcontact {
-       background-color: #18A0FB;
-       padding: 0.4em 1em;
-       border-radius: 6px;
-    }
-
-    .navcontact > a {
-        color: white;
-    }
-/* } */

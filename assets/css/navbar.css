@@ -70,3 +70,13 @@
 .navlinks > a {
     padding: 1rem;
 }
+
+.navcontact {
+  background-color: #18A0FB;
+  padding: 0.4em 1em;
+  border-radius: 6px;
+}
+
+.navcontact > a {
+   color: white;
+}
