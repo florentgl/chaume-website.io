@@ -5,33 +5,32 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 @media only screen and (min-width: 600px) {
     .container {
         margin: 0.6em 3.6em ;
     }
-    
+
     .container > h2 {
         font-size: 2.4em;
         font-weight: 200;
         margin-top: 4em;
     }
-    
+
     a {
         text-decoration: none;
         color: #18A0FB;
     }
-    
+
     .navcontact {
-       background-color: #18A0FB; 
+       background-color: #18A0FB;
        padding: 0.4em 1em;
        border-radius: 6px;
     }
-    
+
     .navcontact > a {
         color: white;
     }
 }
-
-
