@@ -1,5 +1,5 @@
 .bannercontainer {
-    background-image: url("elevage-briard-chaume-du-bois-dieu.jpg");
+    background-image: url("../img/elevage-briard-chaume-du-bois-dieu.jpg");
     background-size: cover;
     background-position: 50% 30%;
     height: 82vh;
@@ -24,7 +24,7 @@
 }
 
 .bannercontainer > a {
-   background-color: #18A0FB; 
+   background-color: #18A0FB;
    padding: 0.4em 1em;
    border-radius: 6px;
    color: white;

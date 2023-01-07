@@ -1,14 +1,15 @@
-@import "navbar.css";
-@import "banner.css";
-@import "cardcontainer.css";
-@import "footer.css";
+@import "assets/css/reset.css";
+@import "assets/css/navbar.css";
+@import "assets/css/banner.css";
+@import "assets/css/cardcontainer.css";
+@import "assets/css/footer.css";
 
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) { */
     .container {
         margin: 0.6em 3.6em ;
     }
@@ -33,4 +34,4 @@ body {
     .navcontact > a {
         color: white;
     }
-}
+/* } */

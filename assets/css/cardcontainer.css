@@ -10,45 +10,39 @@
     flex-grow: 1;
 }
 
-.card1 {
-    display: flex;
-    column-gap: 5em;
-    align-items: center;
-    margin-bottom: 4em;
-    justify-content: space-between;
-    padding-left: 3.6em ;
-    padding-right: 3.6em ;
+/*
+**
+    Card
+**
+*/
+
+.card {
+  display: flex;
+  gap: 5em;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
 }
 
-.card1 > img {
-    flex-grow: 1;
-    width: 49%;
+.card * {
+  width: 50%;
+}
+
+.card img {
     height: auto;
 }
 
-.card1 > .cardtext {
-    flex-grow: 1;
-    width: 45%;
-}
-
-.card2 {
+.card:last-of-type {
     background-color: #F5F5F5;
-    display: flex;
-    column-gap: 5em;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4em 3.6em
 }
 
-.card2 > img {
-    flex-grow: 1;
-    width: 50%;
-    height: auto;
-}
-
-.card2 > .cardtext {
-    flex-grow: 1;
-    width: 45%;
+@media only screen and (max-width: 640px) {
+  .card {
+    flex-direction: column;
+  }
+  .card * {
+    width: 100%;
+  }
 }
 
 .passioncontainer {
@@ -98,7 +92,7 @@
 }
 
 .cardcontact > a {
-   background-color: #18A0FB; 
+   background-color: #18A0FB;
    padding: 0.4em 1em;
    border-radius: 6px;
    color: white;
