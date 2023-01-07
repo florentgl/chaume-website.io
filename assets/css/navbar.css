@@ -61,6 +61,10 @@
     flex-direction: column;
     gap: 0.5rem;
   }
+
+  .nav_items--hidden {
+    display: none;
+  }
 }
 
 .navlinks > a {

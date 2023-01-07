@@ -20,15 +20,24 @@
           <a href="/"><img width="160" src="assets/img/logo.svg" alt=""></a>
         </div>
       </div>
-      <div class="navlinks">
+      <div class="navlinks nav_items nav_items--hidden">
           <a href="">Nos portées</a>
           <a href="">Nos femelles</a>
           <a href="">Notre histoire</a>
       </div>
-      <div class="navcontact">
+      <div class="navcontact nav_items nav_items--hidden">
           <a href="mailto:c.j.debrouwer@gmail.com">Contactez-nous</a>
       </div>
     </nav>
+    <script type="text/javascript">
+      const hamburger = document.getElementById('hamburger')
+      const navItems = document.getElementsByClassName('nav_items')
+      hamburger.addEventListener('click', (event) => {
+        Array.from(navItems).forEach(navItem => {
+          navItem.classList.toggle('nav_items--hidden');
+        })
+      })
+    </script>
     <div class="bannercontainer">
         <h1>ÉLEVAGE DE LA CHAUME DU BOIS DIEU</h1>
         <p>Le Briard Passion</p>
