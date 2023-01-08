@@ -24,9 +24,9 @@
 }
 
 .bannercontainer > a {
-   
-   border: solid #DEBF94;
+   background-color: #F5F5F5;
+   border: solid black;
    padding: 0.4em 1em;
    border-radius: 6px;
-   color: #DEBF94;
+   color: black;
 }

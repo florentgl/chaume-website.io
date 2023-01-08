@@ -96,8 +96,8 @@
 }
 
 .cardcontact > a {
-   border: solid #C89672;
+  border: solid black;
    padding: 0.4em 1em;
    border-radius: 6px;
-   color: #C89672;
+   color: black;
 }

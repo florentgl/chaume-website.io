@@ -1,9 +1,9 @@
 #main {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1em;
-    margin: 0.6em 3.6em ;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  margin: 0.6em 3.6em;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 640px) {
@@ -15,7 +15,7 @@
   }
 
 
-  #main > div:first-of-type {
+  #main>div:first-of-type {
     position: relative;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
     width: 100%;
   }
 
-  #main > div:first-of-type:after {
+  #main>div:first-of-type:after {
     content: " ";
     flex: 1;
   }
@@ -43,17 +43,17 @@
 }
 
 .homebtn {
-    font-size: 1.625em;
-    font-weight: 600;
+  font-size: 1.625em;
+  font-weight: 600;
 }
 
-.homebtn > a {
-    color: black;
+.homebtn>a {
+  color: black;
 }
 
 .navlinks {
-    font-size: 0.9em;
-    font-weight: bold;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 640px) {
@@ -68,13 +68,30 @@
   }
 }
 
-.navlinks > a {
-    padding: 1rem;
+.navlinks>a {
+  padding: 1rem;
+}
+
+.navlinks>a:hover {
+  border-bottom: 1.5px solid black;
+
 }
 
 .navcontact {
-  border: solid #C89672;
+  border: solid black;
   padding: 0.4em 1em;
   border-radius: 6px;
+  background-color: #F5F5F5;
 }
 
+.navcontact:hover {
+  transition: 0.3s;
+  border: solid #F5F5F5;
+  background-color: black;
+  color: black;
+}
+
+.navcontact:hover a {
+  color: #F5F5F5;
+  transition: 0.3s;
+}
