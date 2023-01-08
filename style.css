@@ -21,5 +21,6 @@ body {
 
     a {
         text-decoration: none;
-        color: #18A0FB;
+        font-weight: bold;
+        color: #C89672;
     }
