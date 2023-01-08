@@ -43,6 +43,10 @@
   .card * {
     width: 100%;
   }
+
+  .card:last-of-type {
+    flex-direction: column-reverse;
+  }
 }
 
 .passioncontainer {
