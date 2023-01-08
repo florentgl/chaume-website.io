@@ -53,6 +53,7 @@
 
 .navlinks {
     font-size: 0.9em;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 640px) {
@@ -72,11 +73,12 @@
 }
 
 .navcontact {
-  background-color: #18A0FB;
+  background-color: #BB8864;
   padding: 0.4em 1em;
   border-radius: 6px;
 }
 
 .navcontact > a {
-   color: white;
+  font-weight: bold;
+  color: whitesmoke;
 }
