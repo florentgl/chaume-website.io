@@ -14,34 +14,36 @@
 
 <body>
     <nav id="main">
-      <div>
-        <span id="hamburger">menu</span>
-        <div class="homebtn">
-          <a href="/"><img width="160" src="assets/img/logo-elevage-briard-berger-de-brie.svg" alt=""></a>
+        <div>
+            <span id="hamburger">menu</span>
+            <div class="homebtn">
+                <a href="/"><img width="160" src="assets/img/logo-elevage-briard-berger-de-brie.svg" alt=""></a>
+            </div>
         </div>
-      </div>
-      <div class="navlinks nav_items nav_items--hidden">
-          <a href="#portees">Nos portées</a>
-          <a href="#females">Nos femelles</a>
-          <a href="#histoire">Notre histoire</a>
-      </div>
-      <div class="navcontact nav_items nav_items--hidden">
-          <a href="mailto:c.j.debrouwer@gmail.com">Contactez-nous</a>
-      </div>
+        <div class="navlinks nav_items nav_items--hidden">
+            <a href="#portees">Nos portées</a>
+            <a href="#females">Nos femelles</a>
+            <a href="#histoire">Notre histoire</a>
+        </div>
+        <div class="navcontact nav_items nav_items--hidden">
+            <a href="mailto:c.j.debrouwer@gmail.com">Contactez-nous</a>
+        </div>
     </nav>
     <script type="text/javascript">
-      const hamburger = document.getElementById('hamburger')
-      const navItems = document.getElementsByClassName('nav_items')
-      hamburger.addEventListener('click', (event) => {
-        Array.from(navItems).forEach(navItem => {
-          navItem.classList.toggle('nav_items--hidden');
+        const hamburger = document.getElementById('hamburger')
+        const navItems = document.getElementsByClassName('nav_items')
+        hamburger.addEventListener('click', (event) => {
+            Array.from(navItems).forEach(navItem => {
+                navItem.classList.toggle('nav_items--hidden');
+            })
         })
-      })
     </script>
     <div class="bannercontainer">
         <h1>ÉLEVAGE DE LA CHAUME DU BOIS DIEU</h1>
         <p>Le Briard Passion</p>
-        <a href="mailto:c.j.debrouwer@gmail.com">Contactez-nous</a>
+        <div id="banner--btn" class="navcontact">
+            <a href="mailto:c.j.debrouwer@gmail.com">Contactez-nous</a>
+        </div>
     </div>
     <div class="container">
         <h2>Le Berger de Brie,<br> un chien d'exception</h2>
@@ -81,27 +83,27 @@
         </div>
     </div>
     <div>
-      <div id="portees" class="card">
-        <img src="assets/img/portee-elevage-briard-chaume-du-bois-dieu.jpg" alt="">
-        <div class="cardtext">
-          <h3>Nos portées</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit possimus nam, laudantium
-            reiciendis illo eius odio a sit ad veniam totam qui corporis non natus deleniti inventore cumque?
-            Illum.
-          </p>
+        <div id="portees" class="card">
+            <img src="assets/img/portee-elevage-briard-chaume-du-bois-dieu.jpg" alt="">
+            <div class="cardtext">
+                <h3>Nos portées</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit possimus nam, laudantium
+                    reiciendis illo eius odio a sit ad veniam totam qui corporis non natus deleniti inventore cumque?
+                    Illum.
+                </p>
+            </div>
         </div>
-      </div>
-      <div id="females" class="card">
-        <div class="cardtext">
-          <h3>Nos femelles</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime a expedita nemo
-            voluptate
-            quia, natus sequi et magni ea voluptatibus nulla corrupti dolor error cum similique, veritatis
-            obcaecati
-            harum.</p>
+        <div id="females" class="card">
+            <div class="cardtext">
+                <h3>Nos femelles</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime a expedita nemo
+                    voluptate
+                    quia, natus sequi et magni ea voluptatibus nulla corrupti dolor error cum similique, veritatis
+                    obcaecati
+                    harum.</p>
+            </div>
+            <img src="assets/img/portee-elevage-briard-chaume-du-bois-dieu.jpg" alt="">
         </div>
-        <img src="assets/img/portee-elevage-briard-chaume-du-bois-dieu.jpg" alt="">
-      </div>
     </div>
     <div class="container">
         <div id="histoire" class="passioncontainer">
@@ -121,8 +123,9 @@
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem
             ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
-        <a href="mailto:c.j.debrouwer@gmail.com">Contactez-nous</a>
-
+        <div class="navcontact">
+            <a href="mailto:c.j.debrouwer@gmail.com">Contactez-nous</a>
+        </div>
     </div>
     <div class="container">
         <footer>

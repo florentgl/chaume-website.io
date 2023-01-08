@@ -78,7 +78,7 @@
 }
 
 .navcontact {
-  border: solid black;
+  border: 1px solid black;
   padding: 0.4em 1em;
   border-radius: 6px;
   background-color: #F5F5F5;
@@ -86,7 +86,7 @@
 
 .navcontact:hover {
   transition: 0.3s;
-  border: solid #F5F5F5;
+  border: 1px solid #F5F5F5;
   background-color: black;
   color: black;
 }
