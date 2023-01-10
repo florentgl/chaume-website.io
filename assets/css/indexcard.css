@@ -6,6 +6,14 @@
     margin-bottom: 4em;
 }
 
+@media only screen and (max-width: 640px) {
+    .indexcontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .indexcard {
     flex-grow: 1;
 }
@@ -17,13 +25,13 @@
     margin-bottom: 3em;
 }
 
-.card1 > img {
+.card1>img {
     flex-grow: 1;
     width: 50%;
     height: auto;
 }
 
-.card1 > .cardtext {
+.card1>.cardtext {
     flex-grow: 1;
     width: 45%;
 }
@@ -34,13 +42,13 @@
     align-items: center;
 }
 
-.card2 > img {
+.card2>img {
     flex-grow: 1;
     width: 50%;
     height: auto;
 }
 
-.card2 > .cardtext {
+.card2>.cardtext {
     flex-grow: 1;
     width: 45%;
 }

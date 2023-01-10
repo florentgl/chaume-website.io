@@ -4,12 +4,26 @@
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 640px) {
+    .adresse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .map {
+        flex-grow: 1;
+    }
+}
+
 .coordonnees {
     padding-top: 2em;
     padding-bottom: 2em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    gap: 2em;
 }
 
 .liensfooter {
@@ -27,3 +41,5 @@
     margin-top: 2.5em;
     text-align: center;
 }
+
+
