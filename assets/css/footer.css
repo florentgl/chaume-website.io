@@ -1,11 +1,11 @@
-.adresse {
+.address {
     margin: 6em 6em;
     display: flex;
     justify-content: space-between;
 }
 
 @media only screen and (max-width: 640px) {
-    .adresse {
+    .address {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -17,7 +17,7 @@
     }
 }
 
-.coordonnees {
+.coordonates {
     padding-top: 2em;
     padding-bottom: 2em;
     display: flex;
@@ -26,19 +26,19 @@
     gap: 2em;
 }
 
-.liensfooter {
+.footer-link {
     margin-top: 6em;
     display: flex;
     justify-content: center;
 }
 
-.liensfooter>a {
+.footer-link > a {
     padding-left: 2em;
     padding-right: 2em
 }
 
 @media only screen and (max-width: 640px) {
-    .liensfooter {
+    .footer-link {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -46,7 +46,7 @@
     }
 }
 
-.droits {
+.rights {
     margin-top: 2.5em;
     text-align: center;
 }
