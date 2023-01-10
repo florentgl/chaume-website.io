@@ -1,14 +1,3 @@
-.indexcontainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 6em;
-  row-gap: 2em;
-  margin-bottom: 11em;
-}
-
-.indexcard {
-  flex-grow: 1;
-}
 
 /*
 **

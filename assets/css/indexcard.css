@@ -3,7 +3,10 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 6em;
     row-gap: 2em;
-    margin-bottom: 4em;
+}
+
+.indexcard {
+    flex-grow: 1;
 }
 
 @media only screen and (max-width: 640px) {
