@@ -5,6 +5,10 @@
 **
 */
 
+.cardcontainer {
+  margin-top: 4em;
+}
+
 .card {
   display: flex;
   gap: 5em;
@@ -19,6 +23,10 @@
 
 .card img {
   height: auto;
+}
+
+.card:first-of-type {
+  background-color: #F5F5F5;
 }
 
 .card:last-of-type {
