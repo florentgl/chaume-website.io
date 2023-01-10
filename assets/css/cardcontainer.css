@@ -45,6 +45,10 @@
     width: 100%;
   }
 
+  .card:first-of-type {
+    flex-direction: column-reverse;
+  }
+
   .card:last-of-type {
     flex-direction: column-reverse;
   }
@@ -103,9 +107,14 @@
 
 .cardcontact>p {
   font-size: 1.2em;
-  width: auto;
   text-align: justify;
+}
 
+.navcontact {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cardcontact>a {
