@@ -65,7 +65,7 @@
 
 .passioncontainer>p {
   margin-bottom: 5em;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .passionimg {
@@ -103,8 +103,9 @@
 }
 
 .cardcontact>p {
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: justify;
+  width: 60%;
 }
 
 .navcontact {
