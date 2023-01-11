@@ -13,14 +13,24 @@
 .bannercontainer > h1 {
     text-align: center;
     color: white;
-    font-size: 3.5em;
+    font-size: 3.5rem;
     margin-bottom: 0.2em;
 }
 
 .bannercontainer > p {
-    font-size: 3.125em;
+    font-size: 3.125rem;
     margin-top: 0;
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .bannercontainer > h1 {
+        font-size: 3rem;
+    }
+
+    .bannercontainer > p {
+        font-size: 2.2rem;
+    }
 }
 
 .bannercontainer > a {

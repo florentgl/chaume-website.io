@@ -1,20 +1,7 @@
 .address {
-    margin: 6em 6em;
     display: flex;
     justify-content: space-between;
-}
-
-@media only screen and (max-width: 640px) {
-    .address {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2em;
-    }
-
-    .map {
-        flex-grow: 1;
-    }
+    margin-top: 2em;
 }
 
 .coordonates {
@@ -26,22 +13,59 @@
     gap: 2em;
 }
 
+
+@media screen and (max-width: 1280px) {
+    .address {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2em;
+    }
+    .coordonates {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .address {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2em;
+    }
+    .coordonates {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .map {
+        flex-grow: 1;
+        margin: 1rem;
+    }
+}
+
 .footer-link {
-    margin-top: 6em;
+    height: 5em;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .footer-link>a {
     padding: 1rem;
+    font-size: 0.8rem;
 }
 
 .footer-link a:hover {
     border-bottom: 1.5px solid black;
 }
 
-@media only screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     .footer-link {
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -50,6 +74,8 @@
 }
 
 .rights {
-    margin-top: 2.5em;
-    text-align: center;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
