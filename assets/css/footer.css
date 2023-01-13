@@ -22,6 +22,7 @@
         align-items: center;
         gap: 2em;
     }
+
     .coordonates {
         display: flex;
         flex-direction: row;
@@ -35,11 +36,13 @@
         align-items: center;
         gap: 2em;
     }
+
     .coordonates {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
+
     .map {
         flex-grow: 1;
         margin: 1rem;
@@ -76,8 +79,39 @@
 }
 
 .rights {
+    margin-top: 1em;
     height: 5rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.itinerary {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .map {
+        display: none;
+    }
+
+    .itinerary {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        padding: 0.4em 1em;
+        border-radius: 6px;
+        background-color: #F5F5F5;
+        width: 170px;
+    min-width: 170px;
+    }
+
+    .itinerary:hover {
+        transition: 0.3s;
+        border: 1px solid #F5F5F5;
+        background-color: black;
+        color: white;
+    }
 }
