@@ -101,18 +101,20 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid black;
         padding: 0.4em 1em;
         border-radius: 6px;
-        background-color: #F5F5F5;
+        background-color: #C06133;
+        box-shadow: 4px 3px 12px 2px rgba(0, 0, 0, 0.21);
         width: 170px;
-    min-width: 170px;
+        min-width: 170px;
+        color: white;
     }
+
 
     .itinerary:hover {
         transition: 0.3s;
-        border: 1px solid #F5F5F5;
-        background-color: black;
-        color: white;
+        border: 1px solid #C06133;
+        background-color: lightgray;
+        color: #C06133;
     }
 }
