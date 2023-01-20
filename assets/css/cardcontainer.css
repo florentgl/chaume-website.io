@@ -26,11 +26,13 @@
 }
 
 .card:first-of-type {
-  background-color: #F5F5F5;
+  background-color: #C06133;
+  color: whitesmoke;
 }
 
 .card:last-of-type {
-  background-color: #F5F5F5;
+  background-color: #C06133;
+  color: whitesmoke;
 }
 
 .cardtext > p {
@@ -100,54 +102,4 @@
 .passionimg>img {
   flex-grow: 1;
   width: 80%;
-}
-
-.cardcontact {
-  background-color: #F5F5F5;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 30vh;
-  margin-top: 6em;
-  padding-left: 3.6em;
-  padding-right: 3.6em;
-}
-
-.cardcontact>p {
-  font-size: 1em;
-  text-align: justify;
-  width: 100%;
-  margin-right: 2em;
-}
-
-.navcontact {
-  margin-left: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  min-width: 170px;
-}
-
-.cardcontact>a {
-  border: solid black;
-  padding: 0.4em 1em;
-  border-radius: 6px;
-  color: black;
-}
-
-@media only screen and (max-width: 768px) {
-  .cardcontact {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    align-items: center;
-  }
-
-  .cardcontact > p {
-    margin-right: 0;
-  }
 }

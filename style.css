@@ -30,3 +30,8 @@ a {
     font-weight: bold;
     color: black;
 }
+
+.img--style {
+    box-shadow: 4px 3px 12px 2px rgba(0,0,0,0.21);
+    border-radius: 6px;
+  }

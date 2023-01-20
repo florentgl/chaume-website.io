@@ -1,7 +1,7 @@
 .address {
     display: flex;
     justify-content: space-between;
-    margin-top: 2em;
+    margin-top: 8em;
     margin-bottom: 2em;
 }
 
@@ -54,16 +54,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F5F5F5;
+    background-color: #C06133;
 }
 
 .footer-link>a {
     padding: 1rem;
     font-size: 0.8rem;
+    color: whitesmoke;
 }
 
 .footer-link a:hover {
-    border-bottom: 1.5px solid black;
+    border-bottom: 1.5px solid whitesmoke;
 }
 
 @media screen and (max-width: 768px) {
