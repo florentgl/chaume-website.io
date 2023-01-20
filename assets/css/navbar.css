@@ -76,28 +76,32 @@
 
 .navlinks>a {
   padding: 1rem;
+  color: #C06133;
 }
 
 .navlinks>a:hover {
-  border-bottom: 1.5px solid black;
+  border-bottom: 1.5px solid #C06133;
 
 }
 
 .navcontact {
-  border: 1px solid black;
   padding: 0.4em 1em;
   border-radius: 6px;
-  background-color: #F5F5F5;
+  background-color: #C06133;
+  box-shadow: 4px 3px 12px 2px rgba(0,0,0,0.21);
+}
+
+.navcontact a {
+  color: white;
 }
 
 .navcontact:hover {
   transition: 0.3s;
-  border: 1px solid #F5F5F5;
-  background-color: black;
-  color: black;
+  background-color: lightgray;
+  border: 1px solid #C06133;
 }
 
 .navcontact:hover a {
-  color: #F5F5F5;
+  color: #C06133;
   transition: 0.3s;
 }

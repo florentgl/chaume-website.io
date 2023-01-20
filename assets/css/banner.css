@@ -1,6 +1,8 @@
 .bannercontainer {
-    background-image: url("../img/elevage-briard-chaume-du-bois-dieu.jpg");
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../img/elevage-briard-chaume-du-bois-dieu.jpg");
     background-size: cover;
+    opacity: 0.9;
     background-position: 50% 30%;
     height: 82vh;
     width: 100%;
@@ -10,35 +12,35 @@
     align-items: center;
 }
 
-.bannercontainer > h1 {
+.bannercontainer>h1 {
     text-align: center;
     color: white;
     font-size: 3.5rem;
     margin-bottom: 0.2em;
 }
 
-.bannercontainer > p {
+.bannercontainer>p {
     font-size: 3.125rem;
     margin-top: 0;
     color: white;
 }
 
 @media only screen and (max-width: 768px) {
-    .bannercontainer > h1 {
+    .bannercontainer>h1 {
         font-size: 3rem;
     }
 
-    .bannercontainer > p {
+    .bannercontainer>p {
         font-size: 2.2rem;
     }
 }
 
-.bannercontainer > a {
-   background-color: #F5F5F5;
-   border: solid black;
-   padding: 0.4em 1em;
-   border-radius: 6px;
-   color: black;
+.bannercontainer>a {
+    background-color: #F5F5F5;
+    border: solid black;
+    padding: 0.4em 1em;
+    border-radius: 6px;
+    color: black;
 }
 
 #banner--btn {
