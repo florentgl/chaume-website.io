@@ -76,8 +76,20 @@
 }
 
 .passioncontainer>p {
-  margin-bottom: 5em;
+  text-align: left;
   font-size: 1em;
+}
+
+.passionContainer--paragraph {
+  width: 90%;
+}
+
+.passionContainer--paragraph > p:first-of-type {
+  margin-bottom: 0.4rem;
+}
+
+.passionimg {
+    margin-top: 5em;
 }
 
 @media only screen and (max-width: 768px) {
