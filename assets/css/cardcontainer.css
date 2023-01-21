@@ -24,6 +24,13 @@
   height: auto;
 }
 
+@media only screen and (min-width: 768px) {
+.card img:hover {
+  transform: scale(1.01);
+  transition: 0.6s;
+  box-shadow: 4px 3px 12px 6px rgba(0,0,0,0.4);
+}}
+
 .card:first-of-type {
   background-color: #C06133;
   color: whitesmoke;
@@ -91,6 +98,13 @@
 .passionimg {
     margin-top: 5em;
 }
+
+@media only screen and (min-width: 768px) {
+  .passioncontainer img:hover {
+    transform: scale(1.01);
+  transition: 0.6s;
+  box-shadow: 4px 3px 12px 6px rgba(0,0,0,0.4);
+  }}
 
 @media only screen and (max-width: 768px) {
   .passioncontainer {

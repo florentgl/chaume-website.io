@@ -4,6 +4,7 @@
 @import "assets/css/cardcontainer.css";
 @import "assets/css/footer.css";
 @import "assets/css/indexcard.css";
+@import "assets/css/modal.css";
 
 body {
     font-family: 'Montserrat', sans-serif;
