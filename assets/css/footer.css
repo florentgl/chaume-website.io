@@ -72,6 +72,7 @@
     padding: 1rem;
     font-size: 0.8rem;
     color: whitesmoke;
+    border-bottom: 1.5px solid #C06133;
 }
 
 .footer-link a:hover {
@@ -119,6 +120,7 @@
         width: 170px;
         min-width: 170px;
         color: white;
+        border: 1px solid #C06133;
     }
 
 
