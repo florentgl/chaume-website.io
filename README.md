@@ -2,4 +2,4 @@
 
 Website for a famous french Briard breeder.
 
-Built just in HTML and CSS (simple and efficient).
+Built just in HTML and CSS.
