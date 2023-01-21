@@ -1,7 +1,18 @@
+.beforeAddress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span_beforeAddress {
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+
 .address {
     display: flex;
     justify-content: space-between;
-    margin-top: 8em;
+    margin-top: 3em;
     margin-bottom: 2em;
 }
 
