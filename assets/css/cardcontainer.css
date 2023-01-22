@@ -85,12 +85,12 @@
 }
 
 .passioncontainer>p {
-  text-align: left;
   font-size: 1em;
 }
 
 .passionContainer--paragraph {
   width: 90%;
+  text-align: center;
 }
 
 .passionContainer--paragraph > p:first-of-type {
