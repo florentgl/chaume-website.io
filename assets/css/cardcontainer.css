@@ -23,7 +23,15 @@
 .card img {
   height: auto;
   max-height: 600px;
-  width: auto;
+}
+
+.div--jag {
+  display: flex;
+  flex-direction: column;
+}
+
+.div--jag img {
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
