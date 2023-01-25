@@ -6,10 +6,6 @@
 @import "assets/css/indexcard.css";
 @import "assets/css/modal.css";
 
-@font-face {
-    font-family: 'Montserrat';
-    src: url("assets/fonts/Montserrat-Light.ttf") format("truetype");
-}
 
 body {
     font-family: 'Montserrat', sans-serif;
