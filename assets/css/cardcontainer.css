@@ -23,6 +23,7 @@
 .card img {
   height: auto;
   max-height: 600px;
+  max-width: 847px;
 }
 
 .div--jag {
@@ -59,6 +60,20 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+#champion-btn {
+  width: 250px; 
+  background-color: #f8f9fa;
+}
+
+#champion-btn a {
+  color: #C06133;
+}
+
+#champion-btn:hover {
+  background-color: lightgray;
+}
+
 
 @media only screen and (max-width: 768px) {
   .card {
