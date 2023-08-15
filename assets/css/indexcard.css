@@ -1,46 +1,21 @@
+/* Tout est caché par défaut */
+.intro-btn,
+.intro-btn-end {
+    display: none;
+}
 
+.intro-btn, .intro-btn-end {
+    margin: 0 auto;
+}
 
+/* Sur un petit écran, seulement .intro-btn est affiché initialement */
 @media only screen and (max-width: 768px) {
-    .indexcontainer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 4em;
+
+    .intro-suite {
+        display: none;
     }
-}
 
-
-.card1 {
-    display: flex;
-    column-gap: 6em;
-    align-items: center;
-    margin-bottom: 3em;
-}
-
-.card1>img {
-    flex-grow: 1;
-    width: 50%;
-    height: auto;
-}
-
-.card1>.cardtext {
-    flex-grow: 1;
-    width: 45%;
-}
-
-.card2 {
-    display: flex;
-    column-gap: 6em;
-    align-items: center;
-}
-
-.card2>img {
-    flex-grow: 1;
-    width: 50%;
-    height: auto;
-}
-
-.card2>.cardtext {
-    flex-grow: 1;
-    width: 45%;
+    .intro-btn {
+        display: block;
+    }
 }
