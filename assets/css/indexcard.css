@@ -1,13 +1,4 @@
-.indexcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 6em;
-    row-gap: 2em;
-}
 
-.indexcard {
-    flex-grow: 1;
-}
 
 @media only screen and (max-width: 768px) {
     .indexcontainer {
@@ -18,9 +9,6 @@
     }
 }
 
-.indexcard {
-    flex-grow: 1;
-}
 
 .card1 {
     display: flex;

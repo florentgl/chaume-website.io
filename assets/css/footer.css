@@ -93,11 +93,18 @@
 
 .rights {
     margin-top: 1em;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
     height: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.rights p {
+    margin-bottom: 10px;
 }
 
 .itinerary {
