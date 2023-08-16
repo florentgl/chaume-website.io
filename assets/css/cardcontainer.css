@@ -203,7 +203,7 @@
 }
 
 #history-link {
-  background-image: url('./assets/img/elevage-briard-chaume-du-bois-dieu-2.jpg');
+  background-image: src;
   height: 500px;
   object-fit: contain;
 }
