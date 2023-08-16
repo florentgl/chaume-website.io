@@ -56,9 +56,29 @@
   width: 100%;
 }
 
+.intro-btn {
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.intro-btn-end {
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
 .cardtext_paragraph {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+#champion-intro {
+  margin-top: 30px;
+}
+
+#champion-title {
+  text-align: center;
 }
 
 #champion-btn {
@@ -72,6 +92,11 @@
 
 #champion-btn:hover {
   background-color: lightgray;
+}
+
+#champions-list li {
+  margin-bottom: 25px;
+  text-align: justify;
 }
 
 
