@@ -197,13 +197,13 @@
 }
 
 #champions-link {
-  background-image: url('/assets/img/Osiris-deaver-briard-berger-de-brie-elevage.jpg');
+  background-image: url('');
   height: 500px;
   object-fit: contain;
 }
 
 #history-link {
-  background-image: url('/assets/img/elevage-briard-chaume-du-bois-dieu-chiots-portee.jpg');
+  background-image: url('./assets/img/elevage-briard-chaume-du-bois-dieu-2.jpg');
   height: 500px;
   object-fit: contain;
 }
