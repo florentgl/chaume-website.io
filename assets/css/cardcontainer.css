@@ -86,6 +86,21 @@
 
 #champion-title {
   text-align: center;
+  border-top: 1px solid #C06133;
+  border-bottom: 1px solid #C06133;
+  padding: 20px 0;
+
+}
+
+#champion-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 55px;
+}
+
+#champion-intro span {
+  border-bottom: 1px solid #C06133;
+  padding-bottom: 5px;
 }
 
 #champion-btn {
