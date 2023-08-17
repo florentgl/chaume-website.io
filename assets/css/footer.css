@@ -36,7 +36,7 @@ footer {
 }
 
 .footer-btn a {
-    color: white;
+    color: black;
 }
 
 .footer-btn:hover {
@@ -96,12 +96,12 @@ footer {
 .footer-link>a {
     padding: 1rem;
     font-size: 0.8rem;
-    color: whitesmoke;
+    color: black;
     border-bottom: 1.5px solid #C06133;
 }
 
 .footer-link a:hover {
-    border-bottom: 1.5px solid whitesmoke;
+    border-bottom: 1.5px solid black;
     transition: 0.3s;
 }
 

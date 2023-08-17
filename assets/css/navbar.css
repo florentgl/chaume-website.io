@@ -76,7 +76,7 @@
 
 .navlinks>a {
   padding: 1rem;
-  color: #C06133;
+  color: black;
   border-bottom: 1.5px solid #f8f9fa;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .navcontact a {
-  color: white;
+  color: black;
 }
 
 .navcontact:hover {
