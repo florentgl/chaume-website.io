@@ -82,6 +82,7 @@
 
 .navlinks>a:hover {
   border-bottom: 1.5px solid #C06133;
+  transition: 0.4s;
 
 }
 
