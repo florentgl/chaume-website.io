@@ -41,8 +41,8 @@ footer {
 
 .footer-btn:hover {
     transition: 0.3s;
-    background-color: lightgray;
-    border: 1px solid #C06133;
+  transform: translateY(-0.25em);
+  box-shadow: 0px 6px 20px 10px rgba(0,0,0,0.21);
 }
 
 .footer-btn:hover a {
