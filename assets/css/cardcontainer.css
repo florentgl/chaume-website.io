@@ -105,15 +105,15 @@
 
 #champion-btn {
   width: 250px; 
-  background-color: #f8f9fa;
+  background-color: lightgray;
 }
 
 #champion-btn a {
-  color: #C06133;
+  color: rgb(12, 12, 12);
 }
 
 #champion-btn:hover {
-  background-color: lightgray;
+  background-color: white;
 }
 
 #champions-list li {

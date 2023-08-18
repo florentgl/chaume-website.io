@@ -49,7 +49,7 @@
 }
 
 .homebtn>a {
-  color: black;
+  color: rgb(12, 12, 12);
 }
 
 .navlinks {
@@ -76,7 +76,7 @@
 
 .navlinks>a {
   padding: 1rem;
-  color: black;
+  color: rgb(12, 12, 12);
   border-bottom: 1.5px solid #f8f9fa;
 }
 
@@ -89,18 +89,18 @@
 .navcontact {
   padding: 0.4em 1em;
   border-radius: 6px;
-  background-color: #C06133;
+  background-color: lightgray;
   box-shadow: 4px 3px 12px 2px rgba(0,0,0,0.21);
   border: 1px solid #C06133;
 }
 
 .navcontact a {
-  color: black;
+  color: rgb(12, 12, 12);
 }
 
 .navcontact:hover {
   transition: 0.3s;
-  background-color: lightgray;
+  background-color: white;
   border: 1px solid #C06133;
 }
 

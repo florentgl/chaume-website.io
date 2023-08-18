@@ -2,6 +2,7 @@
 .intro-btn,
 .intro-btn-end {
     display: none;
+    color: rgb(12, 12, 12);
 }
 
 .intro-btn, .intro-btn-end {
@@ -17,5 +18,6 @@
 
     .intro-btn {
         display: block;
+        color: rgb(12, 12, 12);
     }
 }
