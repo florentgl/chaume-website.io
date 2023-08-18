@@ -31,7 +31,7 @@ footer {
     padding: 0.4em 1em;
     border-radius: 6px;
     background-color: white;
-    box-shadow: 4px 3px 12px 2px rgba(0,0,0,0.21);
+    box-shadow: 4px 3px 12px 2px rgba(0, 0, 0, 0.21);
     border: 1px solid #C06133;
 }
 
@@ -43,12 +43,24 @@ footer {
     transition: 0.3s;
     background-color: lightgray;
     border: 1px solid #C06133;
-  }
-  
-  .footer-btn:hover a {
+}
+
+.footer-btn:hover a {
     color: rgb(12, 12, 12);
     transition: 0.3s;
-  }
+}
+
+#florentg {
+    font-size: 0.8rem;
+    text-align: right;
+    margin-right: 30px;
+    padding-bottom: 40px;
+}
+
+#florentg a:hover {
+    background-color: black;
+    color: white;
+}
 
 
 @media screen and (max-width: 1280px) {
@@ -145,7 +157,7 @@ footer {
     }
 
     .coordonates {
-       padding-top: 0;
+        padding-top: 0;
 
     }
 
@@ -169,5 +181,12 @@ footer {
         border: 1px solid #C06133;
         background-color: lightgray;
         color: rgb(12, 12, 12);
+    }
+
+    #florentg {
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 30px;
     }
 }
