@@ -23,6 +23,17 @@
   }
 }
 
+@media only screen and (max-width: 850px) {
+.container>h2, .passioncontainer>h2, .cardtext>p, .cardtext>h3 {
+  text-align: left;
+}
+
+#page--title {
+  font-size: 1.8rem;
+  text-align: center;
+}
+}
+
 .card * {
   width: 50%;
 }
