@@ -185,6 +185,12 @@
     margin-top: 5em;
 }
 
+.passionimg img {
+  height: 100%;
+  object-fit: cover;
+  max-height: 250px;
+}
+
 @media only screen and (min-width: 768px) {
   .passioncontainer img:hover {
     transform: scale(1.01);
