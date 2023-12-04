@@ -53,7 +53,7 @@
             <a href="/#history">Notre histoire</a>
         </div>
         <div class="navcontact nav_items nav_items--hidden">
-            <a href="mailto:chaumeduboisdieu@gmail.com">Contactez-nous</a>
+            <a id="contactUsButton" href="mailto:chaumeduboisdieu@gmail.com" class="contactUsButton">Contactez-nous</a>
         </div>
     </nav>
     <div class="bannercontainer">
@@ -440,7 +440,7 @@
     <footer>
         <div class="container">
             <div class="footer-btn">
-                <a href="mailto:chaumeduboisdieu@gmail.com">Contactez-nous</a>
+                <a href="mailto:chaumeduboisdieu@gmail.com" class="contactUsButton">Contactez-nous</a>
             </div>
         </div>
         <div class="footer-link">
@@ -458,4 +458,17 @@
                 title="Création de sites vitrine et Consultant SEO">Florent G.</a></p>
     </footer>
     <script src="assets/javascript/hamburger.js"></script>
+    <script>
+        // Utiliser querySelector pour sélectionner le premier élément avec la classe
+        var contactUsButton = document.querySelector('.contactUsButton');
+      
+        // Ajouter un gestionnaire d'événements au clic sur le bouton
+        contactUsButton.addEventListener('click', function() {
+          // Envoyer l'événement à Google Analytics 4
+          gtag('event', 'click_on_contact_us', {
+            'event_category': 'button_click',
+            'event_label': 'contact_us'
+          });
+        });
+      </script>
 </body>
