@@ -20,10 +20,11 @@
     margin-bottom: 0.2em;
 }
 
-.bannercontainer>p {
+.bannercontainer>h2 {
     font-size: 3.125rem;
     margin-top: 0;
     color: white;
+    font-weight: 400;
 }
 
 @media only screen and (max-width: 768px) {
@@ -34,7 +35,7 @@
         font-size: 3rem;
     }
 
-    .bannercontainer>p {
+    .bannercontainer>h2 {
         font-size: 2.2rem;
         text-align: center;
         margin: 15px 0;
