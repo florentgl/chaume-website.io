@@ -174,7 +174,7 @@
 
 .passionContainer--paragraph {
   width: 90%;
-  text-align: center;
+  text-align: left;
 }
 
 .passionContainer--paragraph > p:first-of-type {
@@ -201,6 +201,10 @@
 @media only screen and (max-width: 768px) {
   .passioncontainer {
     align-items: flex-start;
+  }
+
+  .passionContainer--paragraph {
+    text-align: center;
   }
 }
 
