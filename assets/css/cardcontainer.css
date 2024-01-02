@@ -152,6 +152,11 @@
   #champions-list {
     padding: 1em;
   }
+
+  #chiot-card {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .passioncontainer {
