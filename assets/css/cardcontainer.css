@@ -60,10 +60,10 @@
   box-shadow: 4px 3px 12px 6px rgba(0,0,0,0.4);
 }}
 
-.card:first-of-type {
+/*.card:first-of-type {
   background-color: #C06133;
   color: whitesmoke;
-}
+}*/
 
 .card:last-of-type {
   background-color: #C06133;
