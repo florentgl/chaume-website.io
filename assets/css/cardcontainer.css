@@ -265,15 +265,9 @@ q {
 .travailimg {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 2em;
+  column-gap: 6em;
   row-gap: 2em;
   justify-items: center;
-  align-items: start; /* Aligne les images en haut */
-  margin-top: 5em;
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 2em;
 }
 
 .travailimg img {
