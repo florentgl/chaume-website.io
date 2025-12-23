@@ -4,6 +4,10 @@
 **
 */
 
+#pregnancy {
+  padding-top: 0;
+}
+
 .cardcontainer {
   margin-top: 4em;
 }

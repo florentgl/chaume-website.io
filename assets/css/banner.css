@@ -60,3 +60,17 @@
     margin-top: 20px;
     box-shadow: 4px 3px 12px 2px rgba(0, 0, 0, 0.21);
 }
+
+.banner {
+    background-color: #C06133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    margin-top: 4em;
+}
+
+.banner>div {
+    text-align: center;
+    color: #F5F5F5;
+}
